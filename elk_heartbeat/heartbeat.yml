@@ -8,7 +8,7 @@ heartbeat.monitors:
   tags: ["elk", "kibana_index", "status"]
 - type: http
   schedule: '*/3 * * * *'
-  urls: ["http://elasticsearch:9200"]   
+  urls: ["http://elasticsearch:9400"]   
   name: "monitor_elasticsearch"
   tags: ["elk", "elasticsearch_index", "status"]
 
