@@ -31,7 +31,7 @@ services:
     restart: always
     image: docker.elastic.co/kibana/kibana:6.5.4
     ports:
-      - "5601:5601"
+      - "5602:5602"
     environment:
       elasticsearch.url: "elasticsearch:9400"
     depends_on:
