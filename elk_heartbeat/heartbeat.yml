@@ -3,7 +3,7 @@ heartbeat.monitors:
 # ELK monitors
 - type: http
   schedule: '*/3 * * * *'
-  urls: ["http://kibana:5601"]
+  urls: ["http://kibana:5602"]
   name: "monitor_kibana"
   tags: ["elk", "kibana_index", "status"]
 - type: http
