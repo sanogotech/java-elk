@@ -45,6 +45,6 @@ heartbeat.monitors:
 heartbeat.scheduler:
   limit: 1
 output.elasticsearch:
-  hosts: ["elasticsearch:9200"]
+  hosts: ["elasticsearch:9400"]
 setup.kibana:
   host: "kibana:5601"
