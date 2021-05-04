@@ -10,7 +10,7 @@ services:
     environment:
       - discovery.type=single-node
     ports:
-      - "9200:9200"
+      - "9400:9400"
     ulimits:
       memlock:
         soft: -1
