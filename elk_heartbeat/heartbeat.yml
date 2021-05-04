@@ -47,4 +47,4 @@ heartbeat.scheduler:
 output.elasticsearch:
   hosts: ["elasticsearch:9400"]
 setup.kibana:
-  host: "kibana:5601"
+  host: "kibana:5602"
